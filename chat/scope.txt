@@ -1,0 +1,19 @@
+{'type': 'websocket',
+ 'path': '/websocket/3',
+  'raw_path': b'/websocket/3',
+   'root_path': '', 
+   'headers': [(b'host', b'127.0.0.1:8000'),
+    (b'connection', b'Upgrade'), (b'pragma', b'no-cache'),
+     (b'cache-control', b'no-cache'), (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+      AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36'),
+       (b'accept-language', b'en-US,en'), (b'upgrade', b'websocket'), (b'origin', b'http://127.0.0.1:8000'), 
+       (b'sec-websocket-version', b'13'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'cookie', b'csrftoken=Vz0FFEbEHZXZGrDrKzJU9DnsOCDyKxyY; sessionid=a79p4yo35jn3h34aavqhqcw5yh5d54cs'), (b'sec-websocket-key', b'Qrmmi8TY+orlY6WS+CSX+Q=='), (b'sec-websocket-extensions', b'permessage-deflate; client_max_window_bits')], 'query_string': b'', 
+       'client': ['127.0.0.1', 61132], 
+       'server': ['127.0.0.1', 8000], 'subprotocols': [],
+        'asgi': {'version': '3.0'}, 
+        'cookies': {'csrftoken': 'Vz0FFEbEHZXZGrDrKzJU9DnsOCDyKxyY', 
+        'sessionid': 'a79p4yo35jn3h34aavqhqcw5yh5d54cs'},
+         'session': <django.utils.functional.LazyObject object at 0x000002772FA54800>
+         , 'user': <channels.auth.UserLazyObject object at 0x000002772FA57410>,
+          'path_remaining': '',
+           'url_route': {'args': (), 'kwargs': {'id': 3}}}
